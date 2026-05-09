@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "atul_21",
     "name": "1300Glvoeman_App",
     "slug": "1300Glvoeman_App",
     "version": "1.0.0",
@@ -9,9 +10,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gloveman.app"
     },
     "android": {
+      "package": "com.gloveman.app",
       "adaptiveIcon": {
         "backgroundColor": "#ffffff",
         "foregroundImage": "./assets/images/store-logo.png"
@@ -38,6 +41,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bc7f8398-1403-439c-975a-4a73d7a16474"
+      }
     }
   }
 }
