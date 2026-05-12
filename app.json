@@ -1,23 +1,26 @@
 {
   "expo": {
-    "owner": "atul_21",
-    "name": "1300Glvoeman_App",
+    "owner": "dkdhawan",
+    "name": "ONEzoo Ordering App",
     "slug": "1300Glvoeman_App",
-    "version": "1.0.0",
+    "version": "4.2.3",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "1300glvoemanapp",
+    "icon": "./assets/images/onezoo-icon-1024.png",
+    "scheme": "glovemanapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gloveman.app"
+      "bundleIdentifier": "com.cart.gloveman",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.gloveman.app",
       "adaptiveIcon": {
         "backgroundColor": "#ffffff",
-        "foregroundImage": "./assets/images/store-logo.png"
+        "foregroundImage": "./assets/images/onezoo-adaptive-foreground.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
@@ -31,7 +34,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/store-logo.png",
+          "image": "./assets/3-ONEzoo Logo Vector Black.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -45,7 +48,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "bc7f8398-1403-439c-975a-4a73d7a16474"
+        "projectId": "6293371d-c36e-4f74-bdae-6069618b478f"
       }
     }
   }
