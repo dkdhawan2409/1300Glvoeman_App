@@ -1,9 +1,9 @@
 {
   "expo": {
-    "owner": "dkdhawan",
+    "owner": "atul_21",
     "name": "ONEzoo Ordering App",
     "slug": "1300Glvoeman_App",
-    "version": "4.2.5",
+    "version": "4.2.6",
     "orientation": "portrait",
     "icon": "./assets/images/onezoo-icon-1024.png",
     "scheme": "glovemanapp",
@@ -49,7 +49,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "6293371d-c36e-4f74-bdae-6069618b478f"
+        "projectId": "bc7f8398-1403-439c-975a-4a73d7a16474"
       }
     }
   }

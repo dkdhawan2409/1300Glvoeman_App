@@ -1,0 +1,12 @@
+Error: UNKNOWN: unknown error, read
+Error: UNKNOWN: unknown error, read
+    at Object.readFileSync (node:fs:449:20)
+    at loadSource (node:internal/modules/cjs/loader:1548:17)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1617:44)
+    at Module.load (node:internal/modules/cjs/loader:1266:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1091:12)
+    at Module.require (node:internal/modules/cjs/loader:1289:19)
+    at require (node:internal/modules/helpers:182:18)
+    at Object.<anonymous> (C:\Users\sharm\OneDrive\Desktop\1300Glvoeman_App\node_modules\expo\node_modules\@expo\metro-config\node_modules\@expo\json-file\node_modules\@babel\code-frame\lib\index.js:9:42)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
